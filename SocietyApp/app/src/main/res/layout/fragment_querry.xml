@@ -13,12 +13,12 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <TextView
+        <EditText
+
             android:id="@+id/querry_title"
             android:layout_width="0dp"
-            android:layout_height="66dp"
-            android:layout_marginBottom="69dp"
-            android:layout_marginTop="1dp"
+            android:layout_height="54dp"
+            android:layout_marginTop="61dp"
             android:background="@drawable/rectangle"
             android:hint="Title"
             android:textStyle="bold"
@@ -31,13 +31,13 @@
             android:id="@+id/querry_description"
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:layout_marginBottom="66dp"
+            android:layout_marginBottom="171dp"
             android:background="@drawable/rectangle"
             android:ems="10"
             android:hint="Write your Querry"
             android:inputType="textMultiLine"
             android:textStyle="italic"
-            app:layout_constraintBottom_toTopOf="@+id/querry_submit"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/querry_title" />
